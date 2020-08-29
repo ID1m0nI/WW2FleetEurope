@@ -1,0 +1,348 @@
+[
+  // KMS fleet
+  {
+    "name": "Graf Zeppelin",
+    "uniqueTo": "Germany",
+    "unitType": "WaterAircraftCarrier",
+    "replaces": "Carrier",
+    "movement": 5,
+    "strength": 30,
+    "rangedStrength": 55,
+    "ranged": 2,
+    "cost": 325,
+    "uniques": ["Bonus vs WaterRanged 30%","Can carry 2 aircraft"],
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Type Z",
+    "uniqueTo": "Germany",
+    "unitType": "WaterMelee",
+    "replaces": "Destroyer",
+    "movement": 6,
+    "strength": 50,
+    "interceptRange": 2,
+    "range": 2,
+    "cost": 315,
+    "uniques": ["Can attack submarines","Bonus vs WaterRanged 50%","May withdraw before melee ([50]%)"], // todo: add bonus vs submarines
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Prinz Eugen",
+    "uniqueTo": "Germany",
+    "unitType": "WaterRanged",
+    "movement": 4,
+    "strength": 65,
+    "interceptRange": 3,
+    "range": 4,
+    "rangedStrength": 75,
+    "cost": 370,
+    "requiredTech": "Refrigeration",
+    "uniques": ["Can attack submarines","Bonus vs WaterAircraftCarrier 20%","Bonus vs WaterMelee 15%"], // todo: add bonus vs submarines
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Bismarck",
+    "uniqueTo": "Germany",
+    "unitType": "WaterRanged",
+    "replaces": "Battleship",
+    "movement": 2,
+    "strength": 75,
+    "range": 6,
+    "rangedStrength": 90,
+    "requiredResource": "Oil",
+    "cost": 400,
+		"uniques": ["Ranged attacks may be performed over obstacles", "Bonus vs City 30%"],
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Type U",
+    "uniqueTo": "Germany",
+    "replaces": "Submarine",
+    "unitType": "WaterSubmarine",
+		"movement": 6,
+		"strength": 40,
+		"rangedStrength": 65,
+		"cost": 300,
+		"requiredTech": "Refrigeration",
+		"uniques": ["Bonus as Attacker [80]%", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+		"hurryCostModifier": 20
+  },
+  // Russian Units
+  {
+    "name": "Chkalov",
+    "uniqueTo": "Russia",
+    "replaces": "Carrier",
+    "unitType": "WaterAircraftCarrier",
+    "movement": 5,
+    "strength": 30,
+    "rangedStrength": 55,
+    "ranged": 2,
+    "cost": 315,
+    "requiredTech": "Electronics",
+    "uniques": ["Bonus vs WaterRanged 30%","Can carry 2 aircraft"],
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Steregushchij",
+    "uniqueTo": "Russia",
+    "unitType": "WaterMelee",
+    "replaces": "Destroyer",
+    "movement": 6,
+    "strength": 50,
+    "interceptRange": 2,
+    "range": 2,
+    "cost": 315,
+    "uniques": ["Can attack submarines","Bonus vs WaterRanged 50%","May withdraw before melee ([50]%)"], // todo: add bonus vs submarines
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Chapayev",
+    "uniqueTo": "Russia",
+    "unitType": "WaterRanged",
+    "movement": 4,
+    "strength": 65,
+    "interceptRange": 3,
+    "range": 4,
+    "rangedStrength": 75,
+    "cost": 370,
+    "requiredTech": "Refrigeration",
+    "uniques": ["Can attack submarines","Bonus vs WaterAircraftCarrier 20%","Bonus vs WaterMelee 15%"], // todo: add bonus vs submarines
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Sovetskaya Rossiya"
+    "uniqueTo": "Russia",
+    "unitType": "WaterRanged",
+    "replaces": "Battleship",
+    "movement": 2,
+    "strength": 75,
+    "range": 6,
+    "rangedStrength": 90,
+    "requiredResource": "Oil",
+    "requiredTech": "Electronics",
+    "cost": 400,
+    "uniques": ["Ranged attacks may be performed over obstacles", "Bonus vs City 30%"],
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Type K",
+    "uniqueTo": "Russia",
+    "replaces": "Submarine",
+    "unitType": "WaterSubmarine",
+    "movement": 6,
+    "strength": 40,
+    "rangedStrength": 65,
+    "cost": 300,
+    "requiredTech": "Refrigeration",
+    "uniques": ["Bonus as Attacker [80]%", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+    "hurryCostModifier": 20
+  },
+  // HMS fleet
+  {
+    "name": "Ark Royal",
+    "uniqueTo": "England",
+    "unitType": "WaterAircraftCarrier",
+    "replaces": "Carrier",
+    "movement": 5,
+    "strength": 30,
+    "rangedStrength": 55,
+    "ranged": 2,
+    "cost": 325,
+    "requiredTech": "Electronics",
+    "uniques": ["Bonus vs WaterRanged 30%","Can carry 2 aircraft"],
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Javelin",
+    "uniqueTo": "England",
+    "unitType": "WaterMelee",
+    "replaces": "Destroyer",
+    "movement": 6,
+    "strength": 50,
+    "interceptRange": 2,
+    "range": 2,
+    "cost": 315,
+    "uniques": ["Can attack submarines","Bonus vs WaterRanged 50%","May withdraw before melee ([50]%)"], // todo: add bonus vs submarines
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Type London",
+    "uniqueTo": "England",
+    "unitType": "WaterRanged",
+    "movement": 4,
+    "strength": 65,
+    "interceptRange": 3,
+    "range": 4,
+    "rangedStrength": 75,
+    "cost": 370,
+    "requiredTech": "Refrigeration",
+    "uniques": ["Can attack submarines","Bonus vs WaterAircraftCarrier 20%","Bonus vs WaterMelee 15%"], // todo: add bonus vs submarines
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Prince of Wales",
+    "uniqueTo": "England",
+    "unitType": "WaterRanged",
+    "replaces": "Battleship",
+    "movement": 2,
+    "strength": 75,
+    "range": 6,
+    "rangedStrength": 90,
+    "requiredResource": "Oil",
+    "requiredTech": "Electronics",
+    "cost": 400,
+    "uniques": ["Ranged attacks may be performed over obstacles", "Bonus vs City 30%"],
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Type U(b)",
+    "uniqueTo": "England",
+    "replaces": "Submarine",
+    "unitType": "WaterSubmarine",
+    "movement": 6,
+    "strength": 40,
+    "rangedStrength": 65,
+    "cost": 300,
+    "requiredTech": "Refrigeration",
+    "uniques": ["Bonus as Attacker [80]%", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+    "hurryCostModifier": 20
+  },
+  // French fleet
+  {
+    "name": "Arromanches",
+    "uniqueTo": "France",
+    "unitType": "WaterAircraftCarrier",
+    "replaces": "Carrier",
+    "movement": 5,
+    "strength": 30,
+    "rangedStrength": 55,
+    "ranged": 2,
+    "cost": 325,
+    "uniques": ["Bonus vs WaterRanged 30%","Can carry 2 aircraft"],
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Type Bourrasque",
+    "uniqueTo": "France",
+    "unitType": "WaterMelee",
+    "replaces": "Destroyer",
+    "movement": 6,
+    "strength": 50,
+    "interceptRange": 2,
+    "range": 2,
+    "cost": 315,
+    "uniques": ["Can attack submarines","Bonus vs WaterRanged 50%","May withdraw before melee ([50]%)"], // todo: add bonus vs submarines
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Type La Galissonniere",
+    "uniqueTo": "France",
+    "unitType": "WaterRanged",
+    "movement": 4,
+    "strength": 65,
+    "interceptRange": 3,
+    "range": 4,
+    "rangedStrength": 75,
+    "cost": 370,
+    "requiredTech": "Refrigeration",
+    "uniques": ["Can attack submarines","Bonus vs WaterAircraftCarrier 20%","Bonus vs WaterMelee 15%"], // todo: add bonus vs submarines
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Richelieu",
+    "uniqueTo": "France",
+    "unitType": "WaterRanged",
+    "replaces": "Battleship",
+    "movement": 2,
+    "strength": 75,
+    "range": 6,
+    "rangedStrength": 90,
+    "requiredResource": "Oil",
+    "requiredTech": "Electronics",
+    "cost": 400,
+    "uniques": ["Ranged attacks may be performed over obstacles", "Bonus vs City 30%"],
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Surcouf",
+    "uniqueTo": "France",
+    "replaces": "Submarine",
+    "unitType": "WaterSubmarine",
+    "movement": 6,
+    "strength": 40,
+    "rangedStrength": 65,
+    "cost": 300,
+    "requiredTech": "Refrigeration",
+    "uniques": ["Bonus as Attacker [80]%", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+    "hurryCostModifier": 20
+  },
+  // Italian fleet
+  {
+    "name": "Aquila",
+    "uniqueTo": "Rome",
+    "unitType": "WaterAircraftCarrier",
+    "replaces": "Carrier",
+    "movement": 5,
+    "strength": 30,
+    "rangedStrength": 55,
+    "ranged": 2,
+    "cost": 325,
+    "uniques": ["Bonus vs WaterRanged 30%","Can carry 2 aircraft"],
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Type Turbine",
+    "uniqueTo": "Rome",
+    "unitType": "WaterMelee",
+    "replaces": "Destroyer",
+    "movement": 6,
+    "strength": 50,
+    "interceptRange": 2,
+    "range": 2,
+    "cost": 315,
+    "uniques": ["Can attack submarines","Bonus vs WaterRanged 50%","May withdraw before melee ([50]%)"], // todo: add bonus vs submarines
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Type Zara",
+    "uniqueTo": "Rome",
+    "unitType": "WaterRanged",
+    "movement": 4,
+    "strength": 65,
+    "interceptRange": 3,
+    "range": 4,
+    "rangedStrength": 75,
+    "cost": 370,
+    "requiredTech": "Refrigeration",
+    "uniques": ["Can attack submarines","Bonus vs WaterAircraftCarrier 20%","Bonus vs WaterMelee 15%"], // todo: add bonus vs submarines
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Conte di Cavour",
+    "uniqueTo": "Rome",
+    "unitType": "WaterRanged",
+    "replaces": "Battleship",
+    "movement": 2,
+    "strength": 75,
+    "range": 6,
+    "rangedStrength": 90,
+    "requiredResource": "Oil",
+    "requiredTech": "Electronics",
+    "cost": 400,
+    "uniques": ["Ranged attacks may be performed over obstacles", "Bonus vs City 30%"],
+    "hurryCostModifer": 20
+  },
+  {
+    "name": "Type Bandiera",
+    "uniqueTo": "Rome",
+    "replaces": "Submarine",
+    "unitType": "WaterSubmarine",
+    "movement": 6,
+    "strength": 40,
+    "rangedStrength": 65,
+    "cost": 300,
+    "requiredTech": "Refrigeration",
+    "uniques": ["Bonus as Attacker [80]%", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+    "hurryCostModifier": 20
+  }
+]

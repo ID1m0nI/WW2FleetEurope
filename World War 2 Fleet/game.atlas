@@ -1,0 +1,355 @@
+
+game.png
+size: 2048,2048
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/Aquila
+  rotate: false
+  xy: 1347, 32
+  size: 610, 610
+  orig: 610, 610
+  offset: 0, 0
+  index: -1
+UnitIcons/Bismarck
+  rotate: false
+  xy: 904, 644
+  size: 776, 600
+  orig: 776, 600
+  offset: 0, 0
+  index: -1
+UnitIcons/Conte di Cavour
+  rotate: false
+  xy: 904, 1246
+  size: 800, 800
+  orig: 800, 800
+  offset: 0, 0
+  index: -1
+UnitIcons/Graf Zeppelin
+  rotate: false
+  xy: 704, 2
+  size: 641, 640
+  orig: 641, 640
+  offset: 0, 0
+  index: -1
+UnitIcons/Javelin
+  rotate: false
+  xy: 2, 444
+  size: 700, 700
+  orig: 700, 700
+  offset: 0, 0
+  index: -1
+UnitIcons/Surcouf
+  rotate: false
+  xy: 2, 1146
+  size: 900, 900
+  orig: 900, 900
+  offset: 0, 0
+  index: -1
+
+game2.png
+size: 2048,1024
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/Aquila
+  rotate: false
+  xy: 1930, 909
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ark Royal
+  rotate: false
+  xy: 2, 62
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Arromanches
+  rotate: false
+  xy: 516, 505
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bismarck
+  rotate: false
+  xy: 606, 303
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chapayev
+  rotate: false
+  xy: 808, 505
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chkalov
+  rotate: false
+  xy: 1930, 879
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Conte di Cavour
+  rotate: false
+  xy: 1964, 909
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Javelin
+  rotate: false
+  xy: 2, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Prince of Wales
+  rotate: false
+  xy: 36, 62
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Prinz Eugen
+  rotate: false
+  xy: 516, 475
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Richelieu
+  rotate: false
+  xy: 550, 505
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sovetskaya Rossiya
+  rotate: false
+  xy: 606, 273
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Steregushchij
+  rotate: false
+  xy: 640, 303
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Surcouf
+  rotate: false
+  xy: 808, 475
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Type Bandiera
+  rotate: false
+  xy: 842, 505
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Type Bourrasque
+  rotate: false
+  xy: 1930, 849
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Type K
+  rotate: false
+  xy: 1964, 879
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Type La Galissonniere
+  rotate: false
+  xy: 1998, 909
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Type London
+  rotate: false
+  xy: 2, 2
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Type Turbine
+  rotate: false
+  xy: 36, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Type U
+  rotate: false
+  xy: 70, 62
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Type U(b)
+  rotate: false
+  xy: 516, 445
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Type Z
+  rotate: false
+  xy: 550, 475
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Type Zara
+  rotate: false
+  xy: 606, 243
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Ark Royal
+  rotate: false
+  xy: 516, 737
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Arromanches
+  rotate: false
+  xy: 2, 92
+  size: 400, 331
+  orig: 400, 331
+  offset: 0, 0
+  index: -1
+UnitIcons/Chapayev
+  rotate: false
+  xy: 516, 535
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Chkalov
+  rotate: false
+  xy: 718, 737
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Prince of Wales
+  rotate: false
+  xy: 718, 535
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Prinz Eugen
+  rotate: false
+  xy: 2, 425
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+UnitIcons/Richelieu
+  rotate: false
+  xy: 920, 737
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Sovetskaya Rossiya
+  rotate: false
+  xy: 920, 535
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Steregushchij
+  rotate: false
+  xy: 1122, 737
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Type Bandiera
+  rotate: false
+  xy: 1122, 535
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Type Bourrasque
+  rotate: false
+  xy: 1324, 737
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Type K
+  rotate: false
+  xy: 1324, 535
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Type La Galissonniere
+  rotate: false
+  xy: 1526, 737
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Type London
+  rotate: false
+  xy: 1526, 535
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Type Turbine
+  rotate: false
+  xy: 1728, 737
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Type U
+  rotate: false
+  xy: 1728, 535
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Type U(b)
+  rotate: false
+  xy: 404, 223
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Type Z
+  rotate: false
+  xy: 404, 21
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Type Zara
+  rotate: false
+  xy: 606, 333
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
